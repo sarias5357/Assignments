@@ -10,4 +10,10 @@ public class Palindrome {
 		
 		return true;
 	}
+	
+	public static void main(String[] args) {
+		System.out.println(isPalindrome("racecar"));
+		System.out.println(isPalindrome("mom"));
+		System.out.println(isPalindrome("dad"));
+	}
 }
