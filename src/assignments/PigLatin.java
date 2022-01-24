@@ -29,14 +29,11 @@ public class PigLatin {
 		}
 		
 		public static boolean isConsonant(char x) {
-			char[] consonants = { 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k' ,'l', 'm', 'n', 'p', 'q'
-					,'r', 's', 't', 'v', 'w','x', 'y', 'z' };
-			
-			for (int i = 0; i < consonants.length; i++) 
-				if (x == consonants[i])
-					return true;
+			if (x == 'A' || x == 'E' || x == 'I' || x == 'O' || x == 'U') {
+				return false;
+			}
 
-			return false;
+			return true;
 		}
 		
 		public static void main(String[] args) {
