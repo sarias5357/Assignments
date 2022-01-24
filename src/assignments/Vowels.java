@@ -16,4 +16,22 @@ public class Vowels {
 		
 		return sum;
 	}
+	
+
+	public static void main(String[] args) {
+		// Test word
+		String word = "Test";
+		int result;
+		
+		// Intro message
+		System.out.println("Counting the vowels in the word: " + word);
+		System.out.println();
+		
+		result = countVowels(word);
+		
+		// Horizontal rule
+		System.out.println("------");
+		
+		System.out.println("Total: " + result);
+	}
 }
