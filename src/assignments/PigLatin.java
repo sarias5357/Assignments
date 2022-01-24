@@ -38,5 +38,13 @@ public class PigLatin {
 
 			return false;
 		}
+		
+		public static void main(String[] args) {
+			System.out.println(toPigLatin("pig"));
+			System.out.println(toPigLatin("latin"));
+			System.out.println(toPigLatin("smile"));
+			System.out.println(toPigLatin("string"));
+			System.out.println(toPigLatin("apple"));
+		}
 }
 	
